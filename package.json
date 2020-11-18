@@ -1,0 +1,18 @@
+{
+  "name": "startpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./index.html",
+    "build": "parcel build ./index.html --public-url ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperapp/time": "^0.1.0",
+    "hyperapp": "^2.0.8",
+    "hyperlit": "^0.3.6",
+    "parcel-bundler": "^1.12.4"
+  }
+}
